@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Page</title>
+    <link rel="stylesheet" href="./Dashboard_pages/style.css">
+    <style>
+        body{
+            background-image: url(https://t3.ftcdn.net/jpg/02/94/52/66/360_F_294526635_8Fc9IbBHWOC83JsiFNRNx5VivafEjiyi.jpg); 
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="whole">
+    <header class="title">
+        <h1>Admin Control Panel</h1>
+         <img src="./assets/picture/logo (2).png" alt="">
+    </header>
+
+    <form action="./Dashboard_pages/home.html">
+        <div class="email">
+           <label for="#mail">Email:</label>
+           <input type="email" id="mail" placeholder="admin@gmail.com" required >
+        </div>
+        <div class="pass">
+           <label for="pass" >Password:</label>
+           <input type="password" id="pass"  placeholder="********" required minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}" title="Password must contain at least 8 characters, one uppercase, one lowercase, one number and one special character">
+        </div>
+         <div class="forget">
+           <a href="#">Forget password</a>
+         </div>
+        <div class="login">
+          <button type="submit">Login</button>
+        </div>
+         
+        
+    </form>
+
+    </div>
+
+</body>
+</html>
