@@ -52,6 +52,13 @@ This project helped me practice:
 * Backend Integration
 * Authentication System
 
+## Live Demo
+
+A live version of this project is available here:
+
+🔗 https://sarfraz94.github.io/admin-dashboard-html-css/
+
+
 ## Author
 
 **Sarfraz Ali**
